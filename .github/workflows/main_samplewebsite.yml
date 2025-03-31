@@ -30,4 +30,4 @@ jobs:
       - name: Deploy to Azure Web App
         run: |
           # Deploy your files to the Azure Web App
-          az webapp deploy --resource-group <your-resource-group> --name <your-webapp-name> --src-path . --type zip
+          az webapp deploy --resource-group Azureresourcegroup --name samplewebsite --src-path . --type zip
